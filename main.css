@@ -1,0 +1,35 @@
+p{
+  color:black;
+  font-family:Arial;
+  font-weight:normal;
+  font-style:normal;
+  font-size:12;
+  padding:10px 40px 10px 5px
+}
+
+h1{
+  background-color:;
+  font-family:Arial;
+  font-weight:bold;
+  font-style:italic;
+  font-size:20;
+  padding:10px 10px 10px 10px
+  
+}
+
+h2{
+font:bold italic 14px Tahoma;
+padding:10px 40px 10px 5px
+}
+
+body {
+background-image: url('blz.png');
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+background-size: cover;
+}
+/* 
+comment zwart is niet wit, conclusie wit is niet zwart
+*/
