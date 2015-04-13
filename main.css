@@ -1,5 +1,5 @@
 p{
-  color:black;
+  color:white;
   font-family:Arial;
   font-weight:normal;
   font-style:normal;
@@ -8,6 +8,7 @@ p{
 }
 
 h1{
+color:white;
   background-color:;
   font-family:Arial;
   font-weight:bold;
@@ -18,12 +19,13 @@ h1{
 }
 
 h2{
+color:white;
 font:bold italic 14px Tahoma;
 padding:10px 40px 10px 5px
 }
 
 body {
-background-image: url('blz.png');
+background-image: url('Background.png');
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;

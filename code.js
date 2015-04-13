@@ -1,0 +1,1 @@
+setTimeout(function(){location.href="blz2.html"}, 3000);
