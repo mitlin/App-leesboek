@@ -32,6 +32,47 @@ background-attachment: fixed;
 background-size: cover;
 background-size: cover;
 }
+
 /* 
 comment zwart is niet wit, conclusie wit is niet zwart
 */
+
+.nav{
+	background-color: #333;
+	text-decoration:none;
+	color: #FFF;
+	margin: 0;
+	list-style: none;
+}
+
+.nav > li{
+
+	display:inline-block;
+}
+
+.nav > li > a{
+	text-decoration: none;
+	font-size:40px;
+	color: #FFF;
+}
+
+@media 	(max-width: 600px){
+
+    .nav{
+         text-align: left;
+		 display: none;
+     }
+    .nav > li{
+        display:block;
+    }
+    .nav-btn{
+        display: block;
+        background-color: #333;
+        color:#FFF;
+        font-size: 40px;
+        text-align: center;
+
+    }
+    .nav-btn:before {
+     content: "Menu";  }
+}
