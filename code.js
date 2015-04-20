@@ -1,1 +1,1 @@
-setTimeout(function(){location.href="blz2.html"}, 3000);
+setTimeout(function(){location.href="menu.html"}, 5000);

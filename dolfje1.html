@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8"/>
+	<title> Het beweeg luisterboek</title>
+	<link rel="stylesheet" href="main.css"/>
+  </head>
+  <Body>
+	 <h1> Dolfje </h1>
+	 <img src="dolfje.jpg" alt="Dolfje Weerwolfje" style="width:200px;height:190px">
+	 
+	 <button onclick= "Start()" style="position:fixed;left:50px;top:250px;">Start</button>
+	 <button onclick= "Pause()"	style="position:fixed;left:110px;top:250px;" >Pause</button>	 
+	 <script>
+	 var audio = new Audio("hello.mp3");
+	 function Start(){
+	 audio.play();
+	 audio.addEventListener('ended',function(){
+	 window.location="dolfje2.html";
+	 })
+	 }
+	 function Pause(){
+	 audio.pause();
+	 }
+	 </script>
+	 <p></p>
+  </body>
+ </html>

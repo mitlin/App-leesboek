@@ -1,78 +1,38 @@
 p{
-  color:white;
+  color:black;
   font-family:Arial;
   font-weight:normal;
   font-style:normal;
-  font-size:12;
-  padding:10px 40px 10px 5px
+  font-size:16px;
 }
 
 h1{
-color:white;
-  background-color:;
+color:black;
   font-family:Arial;
   font-weight:bold;
   font-style:italic;
-  font-size:20;
-  padding:10px 10px 10px 10px
-  
+  font-size:20px;
+  padding:0;
 }
 
 h2{
-color:white;
-font:bold italic 14px Tahoma;
+color:black;
+font: bold 16px Arial,serif;
 padding:10px 40px 10px 5px
 }
 
 body {
-background-image: url('Background.png');
+//background-image: url('Background.png');
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 background-size: cover;
 background-size: cover;
+margin:top;
 }
+
+
 
 /* 
 comment zwart is niet wit, conclusie wit is niet zwart
 */
-
-.nav{
-	background-color: #333;
-	text-decoration:none;
-	color: #FFF;
-	margin: 0;
-	list-style: none;
-}
-
-.nav > li{
-
-	display:inline-block;
-}
-
-.nav > li > a{
-	text-decoration: none;
-	font-size:40px;
-	color: #FFF;
-}
-
-@media 	(max-width: 600px){
-
-    .nav{
-         text-align: left;
-		 display: none;
-     }
-    .nav > li{
-        display:block;
-    }
-    .nav-btn{
-        display: block;
-        background-color: #333;
-        color:#FFF;
-        font-size: 40px;
-        text-align: center;
-
-    }
-    .nav-btn:before {
-     content: "Menu";  }
-}

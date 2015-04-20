@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8"/>
+	<title> Het beweeg luisterboek</title>
+	<link rel="stylesheet" href="main.css"/>
+  </head>
+  <Body>
+	 <h1>Einde van het verhaal,,maar er is meer!</h1> 
+	 <p> Hier onder krijg je een filmpje te zien met daarin de bewegingen van dolf!<br>
+	     Nu kun je ze allemaal na doen! Druk op Menu als je terug wilt naar het begin.
+	 </p>
+	 <video id="VideoM" width="320" height="220">
+	 <source src="dance.mp4" type="video/mp4"> 
+	 Your Browser does not support HTML5 video.
+	 </video>
+	 <button type="button" onclick="pause_play()"style="position:fixed;left:10px;top:380px"; >Play/Pause</button>
+	 <button type="button" onclick="nextPage()" style="position:fixed;left:200px;top:380px";>Menu</button>
+	 <script>
+	 var video = document.getElementById("VideoM");
+	 video.onended = function(){
+	 alert("Filmpje is klaar");
+	 };
+	 
+	 function pause_play(){
+	 if(video.paused){
+	 video.play();
+	 }else{
+	 video.pause();
+	 }
+	 
+	 }
+	 
+	 function nextPage(){
+	 window.location.href = "menu.html";
+			}
+	 </script>
+  </body>
+ </html>
