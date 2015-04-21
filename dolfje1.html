@@ -8,11 +8,17 @@
   <Body>
 	 <h1> Dolfje </h1>
 	 <img src="dolfje.jpg" alt="Dolfje Weerwolfje" style="width:200px;height:190px">
-	 
+
+	 <audio id="AudioM">
+	 <source src="hello.mp3" type="audio/mp3"></source>
+	 <source src="hello.ogg" type="audio/ogg"></source> 
+	 Your Browser does not support HTML5 video.
+	 </audio>
 	 <button onclick= "Start()" style="position:fixed;left:50px;top:250px;">Start</button>
-	 <button onclick= "Pause()"	style="position:fixed;left:110px;top:250px;" >Pause</button>	 
+	 <button onclick= "Pause()"	style="position:fixed;left:110px;top:250px;" >Pause</button>	
+
 	 <script>
-	 var audio = new Audio("hello.ogg");
+	 var audio = document.getElementById("AudioM");
 	 function Start(){
 	 audio.play();
 	 audio.addEventListener('ended',function(){
